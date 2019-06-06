@@ -7,7 +7,7 @@ from PyQt5.QtCore import QStandardPaths, QCoreApplication, Qt
 from interface import Ui_MainWindow
 import sys, os, os.path, re, mysql.connector
 
-cnx = mysql.connector.connect(user="", password="", database=")
+cnx = mysql.connector.connect(user="", password="", database="")
 
 
 class MyFirstGuiProgram(Ui_MainWindow):
